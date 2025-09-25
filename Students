@@ -1,0 +1,29 @@
+public class Students {
+    public String name;
+    private String dob;
+    public int csGrade;
+
+    // The constructor
+    public Students(String name, String dob){
+        this.name = name;
+        this.dob = dob;
+        this.csGrade = 0;
+
+        System.out.printf("Student %s has been created" , this.name);
+    }
+
+    //Method - setter
+    public String changeCSGrade(int grade){
+        this.csGrade = grade;
+        return this.name + " s CS Grade changed to" + this.csGrade;
+    }
+
+    // Method - getter (or accessor)
+    public String getName(){
+        return this.name;
+    }
+
+    public String getDob(){
+        return this.dob;
+    }
+}
