@@ -1,0 +1,17 @@
+public class Main {
+
+    public static void main(String [] args){
+
+        Students aiza = new Students ("Aiza" , "01/01/2010");
+
+        System.out.printf("Aiza's DoB is %s" , aiza.getName());
+
+        Students avika = new Students ("Avika" , "02/02/2009");
+
+        System.out.println(aiza.changeCSGrade(74));
+        System.out.printf("Aiza's CS grade is %d\n" , aiza.csGrade);
+
+        System.out.println(avika.changeCSGrade(100));
+        System.out.printf("Avika's CS grade is %d\n" , avika.csGrade);
+    }
+}
