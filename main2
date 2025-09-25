@@ -1,0 +1,16 @@
+public class Main2 {
+    public static void main (String[] args){
+
+        Animal cat = new Animal ("cat",4 , "meow");
+        Animal dog = new Animal ("dog" , 4 , "bark");
+        Animal sheep = new Animal ("sheep" , 4 , "baaa");
+        Animal monkey = new Animal ("monkey" ,  4, "oo-oo-aa-aa");
+    }
+    
+    // The Constructor 
+    public Animal(String name, String sound){
+        this.name = name;
+        this.sound = sound;
+        this.noOfLegs = 4;
+        System.out.printf("This animal has %"
+}
