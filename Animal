@@ -1,0 +1,14 @@
+public class Animal {
+    public String name;
+    public int noOfLegs;
+    private String noise;
+
+    public Animal (String name, int number, String sound){
+        this.name = name;
+        this.noOfLegs = number;
+        this.noise = sound;
+
+        System.out.printf("Animal objects created for %s. This animal has %d legs. It goes %s" , name, noOfLegs, sound);
+    }
+
+}
